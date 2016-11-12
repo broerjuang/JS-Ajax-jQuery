@@ -14,9 +14,7 @@ let colorController = (req, res) => {
 }
 
 // router
-
 router.get('/color', colorController)
-
 
 // live server
 app.use('/', router);
