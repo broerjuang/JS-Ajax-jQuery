@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Random Color Using jQuery and ajax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,12 +14,27 @@
             <div class="col-md-12">
                 <div class="colorgenerator">
                  <h1>Color Generator using jQuery and Ajax</h1>
+                 <button class="btn btn-primary" onclick="colorReceiver()">Click Me</button>
+               </div>
+               <div class="target row">
+                 <div id="box1" class="target col-sm-4"></div>
+                 <div id="box2" class="target col-sm-4"></div>
+                 <div id="box3" class="target col-sm-4"></div>
+               </div>
+               <div class="target row">
+                 <div id="box4" class="target col-sm-4"></div>
+                 <div id="box5" class="target col-sm-4"></div>
+                 <div id="box6" class="target col-sm-4"></div>
+               </div>
+               <div class="target row">
+                 <div id="box7" class="target col-sm-4"></div>
+                 <div id="box8" class="target col-sm-4"></div>
+                 <div id="box9" class="target col-sm-4"></div>
                </div>
             </div>
           </div>
         </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
